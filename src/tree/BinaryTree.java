@@ -27,4 +27,12 @@ public class BinaryTree {
         third.left = sixth;
         third.right = seventh;
     }
+    public void preOrder(TreeNode root){
+        if(root == null){
+            return;
+        }
+        System.out.println(root.data);
+        preOrder(root.left);
+        preOrder(root.right);
+    }
 }
