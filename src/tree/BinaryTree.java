@@ -44,5 +44,10 @@ public class BinaryTree {
         }
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
+        while (!stack.isEmpty()){
+            TreeNode temp = stack.pop();
+            System.out.println(temp.data+" ");
+
+        }
     }
 }
