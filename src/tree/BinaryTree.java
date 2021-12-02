@@ -43,6 +43,6 @@ public class BinaryTree {
             return;
         }
         Stack<TreeNode> stack = new Stack<>();
-
+        stack.push(root);
     }
 }
