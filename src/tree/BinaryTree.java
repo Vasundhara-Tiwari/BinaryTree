@@ -60,5 +60,6 @@ public class BinaryTree {
             return;
         }
         inOrder(root.left);
+        System.out.println(root.data);
     }
 }
