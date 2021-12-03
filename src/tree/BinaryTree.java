@@ -55,4 +55,7 @@ public class BinaryTree {
             }
         }
     }
+    public void inOrder(TreeNode root){
+
+    }
 }
