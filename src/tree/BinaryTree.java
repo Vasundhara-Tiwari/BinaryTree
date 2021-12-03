@@ -59,5 +59,6 @@ public class BinaryTree {
         if(root == null){
             return;
         }
+        inOrder(root.left);
     }
 }
