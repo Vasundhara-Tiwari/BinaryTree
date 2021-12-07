@@ -70,7 +70,10 @@ public class BinaryTree {
         Stack<TreeNode> stack = new Stack<>();
         TreeNode temp = root;
         while (!stack.isEmpty() || temp != null){
-
+            if(temp!=null){
+                stack.push(temp);
+                temp = temp.left;
+            }
         }
     }
 }
