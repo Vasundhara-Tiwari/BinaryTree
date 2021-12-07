@@ -64,6 +64,9 @@ public class BinaryTree {
         inOrder(root.right);
     }
     public void iterativeInOrder(TreeNode root){
+        if(root == null){
+            return;
+        }
 
     }
 }
