@@ -67,6 +67,10 @@ public class BinaryTree {
         if(root == null){
             return;
         }
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode temp = root;
+        while (!stack.isEmpty() || temp != null){
 
+        }
     }
 }
