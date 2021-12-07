@@ -73,6 +73,10 @@ public class BinaryTree {
             if(temp!=null){
                 stack.push(temp);
                 temp = temp.left;
+            } else {
+                temp = stack.pop();
+                System.out.print(temp.data+" ");
+                temp = temp.right;
             }
         }
     }
