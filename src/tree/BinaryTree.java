@@ -85,5 +85,6 @@ public class BinaryTree {
             return;
         }
         postOrder(root.left);
+        postOrder(root.right);
     }
 }
