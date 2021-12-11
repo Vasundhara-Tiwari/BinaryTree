@@ -84,5 +84,6 @@ public class BinaryTree {
         if(root == null){
             return;
         }
+        postOrder(root.left);
     }
 }
