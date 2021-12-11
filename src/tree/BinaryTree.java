@@ -80,7 +80,7 @@ public class BinaryTree {
             }
         }
     }
-    public void postOrder(){
+    public void postOrder(TreeNode root){
 
     }
 }
