@@ -82,7 +82,7 @@ public class BinaryTree {
     }
     public void postOrder(TreeNode root){
         if(root == null){
-
+            return;
         }
     }
 }
